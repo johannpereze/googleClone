@@ -37,18 +37,15 @@ header div a:hover {
   text-decoration: underline;
 }
 
-.user{
+.user {
   height: 32px;
   width: 32px;
   border-radius: 50%;
   margin: 3px;
 }
 
-
-.user img{
-  
+.user img {
   border-radius: 50%;
-  
 }
 
 .googleApps {
@@ -58,14 +55,12 @@ header div a:hover {
   width: 40px;
   height: 40px;
   padding: 4px;
-  
+
   border-radius: 50%;
 }
 
 .googleApps:hover {
-  
-  background-color: rgba(60,64,67,0.08);
-  
+  background-color: rgba(60, 64, 67, 0.08);
 }
 .googleApps__container {
   display: flex;
@@ -88,44 +83,83 @@ header div a:hover {
   background-color: #5f6368;
 }
 
-main{
+main {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-
 }
 
-.searchBarContainer{
+.searchBarContainer {
   margin-top: 10px;
   margin-bottom: 10px;
   width: 584px;
 }
-.searchBar{
+.searchBar {
   width: 100%;
   border-radius: 23px;
   height: 46px;
   border: 1px solid #cacaca;
   outline: none;
+  padding-left: 30px;
+  font-size: 1.6rem;
+}
+.searchBar:hover {
+  box-shadow: 0 4px 4px rgb(32 33 36 / 18%);
 }
 
-.buttons{
+.buttons {
   height: 34px;
   padding: 0 16px 0 16px;
   margin: 11px 4px;
   border: none;
   background-color: #f8f9fa;
   border-radius: 3px;
+  color: #3c4043;
+  font-size: 1.4rem;
 }
 
-.buttons:hover{
+.buttons:hover {
   box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
 }
 
-.buttons:active{
-  border: 1px solid blue
+.buttons:active {
+  border: 1px solid blue;
 }
 
-footer{
-  
+footer {
+  display: flex;
+  flex-direction: column;
+  color: rgba(0, 0, 0, 0.54);
+  font-size: 1.4rem;
+}
+
+.footerA {
+  background-color: #f2f2f2;
+  height: 4.5rem;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #dadce0;
+}
+
+.footerA p {
+  margin-left: 20px;
+}
+
+.footerB {
+  background-color: #f2f2f2;
+  height: 4.5rem;
+  display: flex;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding-right: 20px;
+}
+.footerB a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.54);
+}
+.footerB a:hover {
+  text-decoration: underline;
 }
