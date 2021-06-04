@@ -1,2 +1,2 @@
 # googleClone
-CLon de google para el curso práctico de CSS de Platzi
+Clon de google para el curso práctico de CSS de Platzi
