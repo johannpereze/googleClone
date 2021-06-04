@@ -1,0 +1,131 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 65.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: space-between;
+}
+
+header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 6rem;
+}
+
+.header__a {
+  padding-right: 1rem;
+}
+
+header div a {
+  color: rgba(0, 0, 0, 0.87);
+  text-decoration: none;
+}
+
+header div a:hover {
+  text-decoration: underline;
+}
+
+.user{
+  height: 32px;
+  width: 32px;
+  border-radius: 50%;
+  margin: 3px;
+}
+
+
+.user img{
+  
+  border-radius: 50%;
+  
+}
+
+.googleApps {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  padding: 4px;
+  
+  border-radius: 50%;
+}
+
+.googleApps:hover {
+  
+  background-color: rgba(60,64,67,0.08);
+  
+}
+.googleApps__container {
+  display: flex;
+  width: 16px;
+  height: 16px;
+  justify-content: space-between;
+}
+
+.googleApps__column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dot {
+  height: 4px;
+  width: 4px;
+  border-radius: 50%;
+  background-color: #5f6368;
+}
+
+main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.searchBarContainer{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 584px;
+}
+.searchBar{
+  width: 100%;
+  border-radius: 23px;
+  height: 46px;
+  border: 1px solid #cacaca;
+  outline: none;
+}
+
+.buttons{
+  height: 34px;
+  padding: 0 16px 0 16px;
+  margin: 11px 4px;
+  border: none;
+  background-color: #f8f9fa;
+  border-radius: 3px;
+}
+
+.buttons:hover{
+  box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+}
+
+.buttons:active{
+  border: 1px solid blue
+}
+
+footer{
+  
+}
