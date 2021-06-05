@@ -41,7 +41,7 @@ header div a:hover {
   height: 32px;
   width: 32px;
   border-radius: 50%;
-  margin: 3px;
+  margin: 3px 15px 3px 0px;
 }
 
 .user img {
@@ -94,18 +94,37 @@ main {
   margin-top: 10px;
   margin-bottom: 10px;
   width: 584px;
-}
-.searchBar {
-  width: 100%;
   border-radius: 23px;
   height: 46px;
   border: 1px solid #cacaca;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.searchBarInput {
   outline: none;
-  padding-left: 30px;
+  border-color:transparent;
+  height: 100%;
+  width: 100%;
   font-size: 1.6rem;
 }
-.searchBar:hover {
-  box-shadow: 0 4px 4px rgb(32 33 36 / 18%);
+
+.lupa{
+  height: 20px;
+  width: 20px;
+  fill: #9aa0a6;
+  margin: 0 15px;
+}
+
+.microfono{
+  height: 24px;
+  width: 24px;
+  margin: 0 15px;
+}
+
+.searchBarContainer:hover {
+  box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
+  border-color: transparent;
 }
 
 .buttons {
@@ -114,6 +133,7 @@ main {
   margin: 11px 4px;
   border: none;
   background-color: #f8f9fa;
+  border: 1px solid #f8f9fa;
   border-radius: 3px;
   color: #3c4043;
   font-size: 1.4rem;
@@ -121,6 +141,7 @@ main {
 
 .buttons:hover {
   box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+  border: 1px solid #dadce0;
 }
 
 .buttons:active {
